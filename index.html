@@ -10,10 +10,12 @@
 </head>
 <body>
     <div id="container">
-        <span id="border"></span>
+        <div id="border"></div>
         <div id="switch-container">
-            <input type="range" name="border-range" id="border-range" min="0" max="100">
-
+            <input type="range" name="border-range" id="border-range" min="0" max="50" value="0">
+            <label for="range">0%</label>
+            <br>
+            <input type="text" id="range-value" placeholder="Min = 0 Max = 50"></input>
         </div>
     </div>
 </body>

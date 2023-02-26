@@ -5,7 +5,23 @@
 }
 
 #container {
-    margin: 0 auto;
-    background-color: red;
-    width: 50 vw;
+    margin: auto auto;
+    width: 50vw;
+    height: 60vh;
+}
+
+#border {
+    position: absolute;
+    top: 20vh;
+    left: 40vw;
+    width: 20rem;
+    height: 18rem;
+    border: 5px solid #000;
+    border-radius: 0%;
+}
+
+#switch-container {
+    position: absolute;
+    top: 65vh;
+    left: 46vw;
 }
