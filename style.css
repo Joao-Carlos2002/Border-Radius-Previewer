@@ -118,7 +118,7 @@ label[for="border-range4"] {
 }
 
 #copy-value {
-    width: 20vw;
+    width: 24vw;
     height: 10vh;
     border-radius: 20px;
     position: absolute;
@@ -127,10 +127,11 @@ label[for="border-range4"] {
     background-color: #777;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 #value-css {
+    margin-left: 1rem;
     color: #fff;
     text-align: center;
     font-size: 18px;
