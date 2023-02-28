@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,15 +9,42 @@
     <script src="./script.js" defer></script>
     <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div id="container">
         <div id="border"></div>
-        <div id="switch-container">
-            <input type="range" name="border-range" id="border-range" min="0" max="50" value="0">
-            <label for="range">0%</label>
+        <div id="switch-1-container" class="">
+            <input type="range" name="border-1-range" id="border-1-range" class="border-range" min="0" max="50" value="0">
+            <label for="border-1-range">0%</label>
             <br>
-            <input type="text" id="range-value" placeholder="Min = 0 Max = 50"></input>
+            <input type="number" id="range-1-value" placeholder="Min = 0 Max = 50"></input>
+        </div>
+        <div id="switch-4-container">
+            <div id="range1">
+                <input type="range" name="border-range1" id="border-range1" class="border-range" min="0" max="100" value="0">
+                <label for="border-range1">0%</label>
+            </div>
+            <div id="range2">
+                <input type="range" name="border-range2" id="border-range2" class="border-range" min="0" max="100" value="0">
+                <label for="border-range2">0%</label>
+            </div>
+            <div id="range3">
+                <input type="range" name="border-range3" id="border-range3" class="border-range" min="0" max="100" value="0">
+                <label for="border-range3">0%</label>
+            </div>
+            <div id="range4">
+                <input type="range" name="border-range4" id="border-range4" class="border-range" min="0" max="100" value="0">
+                <label for="border-range4">0%</label>
+            </div>
         </div>
     </div>
+    <section id="copy-value">
+        <p id="value-css"></p>
+        <p id="copy-paste">
+            <span class="copy-square" id="square1"></span>
+            <span class="copy-square" id="square2"></span>
+        </p>
+    </section>
 </body>
+
 </html>

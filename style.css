@@ -5,23 +5,157 @@
 }
 
 #container {
-    margin: auto auto;
+    position: absolute;
+    left: 25%;
     width: 50vw;
     height: 60vh;
 }
 
 #border {
     position: absolute;
-    top: 20vh;
-    left: 40vw;
+    top: 10%;
+    left: 30%;
     width: 20rem;
     height: 18rem;
     border: 5px solid #000;
-    border-radius: 0%;
 }
 
-#switch-container {
+#border-1-range {
+    position: absolute;
+    left: -3rem;
+}
+
+label[for="border-1-range"] {
+    position: absolute;
+    left: 11.5rem;
+    top: -.3rem;
+    width: 3rem;
+}
+
+.border-range {
+    appearance: none;
+    width: 14rem;
+    height: .5rem;
+    position: absolute;
+    background-color: #999;
+    border-radius: 20px;
+}
+
+.border-range::-webkit-slider-thumb {
+    appearance: none;
+    border-radius: 10px;
+    width: 1rem;
+    height: 1rem;
+    background-color: #000;
+}
+
+#switch-1-container {
+    position: absolute;
+    top: 85%;
+    left: 42%;
+}
+
+.hide {
+    display: none;
+}
+
+#switch-4-container {
+    width: 50vw;
+    height: 60vh;
+}
+
+#range1 {
+    position: absolute;
+    top: 10%;
+    left: -5%;
+}
+
+label[for="border-range1"] {
+    position: absolute;
+    left: 14.2rem;
+    top: -.3rem;
+    width: 5rem;
+}
+
+#range2 {
+    position: absolute;
+    top: 10%;
+    left: 73%;
+}
+
+label[for="border-range2"] {
+    position: absolute;
+    left: 14.3rem;
+    top: -.3rem;
+    width: 5rem;
+}
+
+#range3 {
+    position: absolute;
+    top: 75%;
+    left: -5%;
+}
+
+label[for="border-range3"] {
+    position: absolute;
+    left: 14.2rem;
+    top: -.3rem;
+    width: 5rem;
+}
+
+#range4 {
+    position: absolute;
+    top: 75%;
+    left: 73%;
+}
+
+label[for="border-range4"] {
+    position: absolute;
+    top: 75%;
+    left: 14.3rem;
+    top: -.3rem;
+    width: 5rem;
+}
+
+#copy-value {
+    width: 20vw;
+    height: 10vh;
+    border-radius: 20px;
     position: absolute;
     top: 65vh;
-    left: 46vw;
+    left: 42vw;
+    background-color: #777;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#value-css {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.copy-square {
+    width: 1rem;
+    height: 1rem;
+}
+
+#copy-paste {
+    cursor: pointer;
+}
+
+#square1 {
+    position: absolute;
+    left: 90%;
+    top: 30%;
+    border: 2px solid #111;
+}
+
+#square2 {
+    position: absolute;
+    left: 88.5%;
+    top: 40%;
+    background-color: #111;
 }
